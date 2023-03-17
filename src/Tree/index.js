@@ -1,4 +1,5 @@
-import { BinarySearchTree } from './tree';
+import { BinarySearchTree } from './binaryTree';
+// import { BinarySearchTree } from './tree';
 // ---------------- 封装的树结构测试 ---------------- //
 console.log('// ----- 树结构测试 START -----//');
 
@@ -32,13 +33,13 @@ console.log('search(98)-递归实现', binarySearchTree.search(98));
 console.log('search(10)-递归实现', binarySearchTree.search(10));
 
 console.log('search(98)-while循环实现', binarySearchTree.search2(98));
-console.log('search(10)-while循环实现', binarySearchTree.search2(10));
+console.log('search(10)-while循环实现', binarySearchTree.search2(11));
 
 console.log('remove(20)');
-binarySearchTree.remove(20);
-console.log(binarySearchTree);
-console.log(binarySearchTree.inorderTraversal());
+// binarySearchTree.remove(20);
+console.log(binarySearchTree.remove(20));
+console.log('删除20后，中序遍历', binarySearchTree.inorderTraversal());
 
-console.log('// -----树结构测试 END -----//');
+// console.log('// -----树结构测试 END -----//');
 
 

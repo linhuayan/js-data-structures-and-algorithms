@@ -678,7 +678,7 @@ getSuccessor(delNode) {
 
 ## 平衡树
 
-二叉搜索树的缺陷：当插入的数据是有序的数据，就会造成二叉搜索树的深度过大。比如原二叉搜索树由 11 7 15 组成，如下图所示：
+二叉搜索树的缺陷：当插入的数据是*有序的数据*，就会造成二叉搜索树的深度过大。比如原二叉搜索树由 11 7 15 组成，如下图所示：
 
 ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.1nkd51rg5dz4.png)
 
