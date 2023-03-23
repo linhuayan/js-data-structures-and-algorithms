@@ -23,8 +23,11 @@
 // import './HashTable';
 
 // 导入树结构的封装及测试代码
-import './Tree';
+// import './Tree';
 
 
 // // 导入图结构的封装及测试代码
 // import './Graph';
+
+// 导入排序结构的封装及测试代码
+import './Sort';
